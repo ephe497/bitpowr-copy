@@ -1,0 +1,252 @@
+@font-face{
+    font-family: "Manrope Regular";
+    src: url("./Manrope/static//Manrope-Regular.ttf")
+}
+@font-face{
+    font-family: "Manrope Bold";
+    src: url("./Manrope/static//Manrope-Bold.ttf")
+}
+@font-face{
+    font-family: "Manrope Extral-Bold";
+    src: url("./Manrope/static//Manrope-ExtraBold.ttf")
+}
+@font-face{
+    font-family: "Manrope semi-Bold";
+    src: url("./Manrope/static//Manrope-SemiBold.ttf")
+}
+body{
+  
+    font-family:"Manrope Regular" ;
+}
+.header{
+    /* height: 300px; */
+    background-color: #525fe1;
+}
+.head{
+    padding: 61px 100px;
+}
+.logo{
+    font-family: "Manrope semi-Bold";
+    color: #f4f5fd;
+    font-size: x-large;
+    display: inline;
+}
+span{
+    color: #f4f5fd;
+    margin-right: 30px;
+}
+
+.button{
+    width: 97px;
+    background-color: #f67001;
+    border-radius: 30px;
+    color: #f4f5fd;
+}
+.div1{
+    padding: 0px 101px;
+    float: left;
+    width: 50%;
+}
+.text1{
+    font-family: 'Manrope Extral-Bold';
+    color: #f4f5fd;
+    font-size: 39px;
+    display: inline;
+    padding-bottom: 10px;
+}
+.text2{
+    color: #f4f5fd;
+    margin-top: 35px;
+}
+.text3{
+    font-family: 'Manrope Extral-Bold';
+    font-size: 30px;
+}
+.text4{
+    font-family: 'Manrope Extral-Bold';
+    font-size: 20px;
+    margin-top: 28px;
+}
+.second{
+    padding: 88px 69px;
+    background-color: #ffffff;
+}
+.roww{
+    align-items: center;
+}
+.button1{
+    width: 158px;
+    border-radius: 30px;
+    padding: 12px;
+    color: #f4f5fd;
+    background-color: #f67001;
+}
+.button2{
+    /* background-color: rgb(226 236 253 /0.2) !important; */
+    background-color: #525fe1;
+    border-radius: 30px;
+    border: 1px solid white;
+    padding: 12px;
+    width: 201px;
+    margin-left: 20px;
+    color: #f4f5fd;
+
+}
+.btn-cover{
+    margin-bottom: 74px;
+    margin-left: 104px;
+    margin-top: 14px;
+}
+.button2:hover{
+    border: 2px solid #525fe1 ;
+    background-color:white;
+}
+.div2{
+    float: right;
+    width: 50%;
+}
+.img1{
+    margin-bottom: -236px;
+    margin-top: 121px;
+    width: 315px;
+    height: 400px;
+    float: left;
+}
+.img2{
+    width: 373px;
+    height: 300px;
+    float: right;
+}
+.img3{
+    width: 100%;
+
+}
+.img4{
+    width: 100%;
+}
+.pad{
+    padding: 50px 24px;
+}
+.left2{
+        box-shadow: 0px 0 46px #9aa9cc;
+        border-radius: 30px;
+        display: inline-block;
+        height: 100%;
+        padding: 30px 30px;
+        float: none;
+
+}
+.space{
+    margin-bottom: -141px;
+}
+.square{
+    width: 30px;
+    display: none;
+}
+.img5{
+    float: right;
+}
+.float{
+    float: right;
+}
+
+@media(max-width: 768px){
+    .head{
+        padding:41px 40px;
+    }
+    .square{
+        display: block;
+    }
+    .float{
+        float: none;
+    }
+    .span{
+    background-color: white;
+    padding: 20px;
+    
+        width: 100%;
+    }
+    span{
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+        color: black;
+    }
+    .remove{
+        display: none;
+    }
+    .text1{
+        font-size: 41px;
+    }
+    .div1{
+        width: 100%;
+        padding:0 51px;
+    }
+    .text2{
+        display: none;
+    }
+    .div2{
+        width: 100%;
+    }
+    .img2{
+        width: 230px;
+        height: 281spx;
+        float: right;
+    }
+    .img1{
+        margin-bottom: -123px;
+        margin-top: 37px;
+        width: 216px;
+        float: left;
+        position: absolute;
+    }
+    .btn-cover{
+        margin-top:64px;
+        padding: 0px 139px;
+       
+
+    }
+    .cover{
+        background-color: white;
+    }
+        .button1{
+            width: 100%;
+           
+        }
+        .button2{
+            width: 100%;
+            margin-top: 20px;
+            margin-left: 0;
+        
+        }
+        .second {
+            padding: 33px 45px;
+
+        }
+        .text3 {
+            font-size: 35px;
+        }
+        .text5{
+            font-size: 23px;
+    margin-top: 25px;
+        }
+        .left {
+            width: 100%;
+            margin-right: 0px;
+            margin-bottom: 60px;
+        }
+        .left2 {
+            width: 100%;
+            margin-right: 0px;
+            margin-bottom: 60px;
+        }
+    }
+    @media(max-width:1300px){
+        .br{
+            display: none;
+            
+        }
+        .text4{
+            font-size: 34px;
+        }
+    }
